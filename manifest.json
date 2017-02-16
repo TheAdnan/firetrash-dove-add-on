@@ -1,0 +1,36 @@
+{
+
+  "manifest_version": 2,
+  "name": "Firetrash Dove",
+  "version": "1.0",
+  "description": "Replacing all images on website with the trash dove gif",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  
+  "browser_action": {
+    "default_icon": "icons/icon.png"
+  },
+  
+  "background": {
+	"scripts": ["background.js"]
+	},
+	
+	"content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+	  "js": ["jquery.js"]
+	  
+    }
+	],
+
+
+	"permissions": [
+    "activeTab",
+	"tabs",
+	"webRequest"
+	]
+  
+
+}
