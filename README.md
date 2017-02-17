@@ -3,7 +3,7 @@
 Experimental add-on. Replaces all images on a website with the trash dove gif.
 
 ## Installation
-The add-on was submitted to (Mozilla)[https://addons.mozilla.org/en-US/firefox/] for review, so as soon as they approve the add-on, I'll put a download link here.
+The add-on was submitted to [Mozilla](https://addons.mozilla.org/en-US/firefox/) for review, so as soon as they approve the add-on, I'll put a download link here.
 Until then, you can use the add-on temporarily:
 * Download and clone this repository on your computer
 * Open a new tab and open *about:debugging*
